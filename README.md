@@ -7,6 +7,10 @@
 
 3. Convert integration tests to unit tests by mocking out db/httpclient.
 Add client side tests. 
+Add efcore database model.
+Cache remote avatar URL generation locally.
+
+
 
 
 

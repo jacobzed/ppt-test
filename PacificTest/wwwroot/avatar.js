@@ -6,8 +6,6 @@ async function getAvatarUrl(userId) {
 
     try {
         const endpoint = `http://localhost:7126/avatar?userIdentifier=${userId}`;
-        if (!endpoint)
-            return defaultUrl;
 
         console.log(`fetching ${endpoint}`)
         const response = await fetch(endpoint);
