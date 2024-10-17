@@ -1,3 +1,16 @@
+
+# Notes
+
+1. I've added a few tests to the backend verify correctness.
+
+2. About 2.5 hours. I haven't used SQLite before and I'm more familiar with restsharp than httpclient.
+
+3. Convert integration tests to unit tests by mocking out db/httpclient.
+Add client side tests. 
+
+
+
+
 # Task
 
 Create and implement a backend system that is called from the sample UI that we have provided for you in the index.html file. It must meet the following requirements:
